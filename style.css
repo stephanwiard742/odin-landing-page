@@ -40,7 +40,7 @@ ul {
     padding-bottom: 18px;
 }
 
-#logo {
+.logo {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
@@ -159,7 +159,7 @@ ul {
 .quoteSectionquote,
 .quoteSectionquoteCredit {
     max-width: 800px;
-    width: 100%;                  /* neem de ruimte tot 800px, zodat de credit nog rechts kan */
+    width: 100%;
 }
 
 .quoteSectionquote {
