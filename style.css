@@ -149,10 +149,17 @@ ul {
     flex-direction: column;
     display: flex;
     background-color: #E5E7EB;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 50px;
     padding-bottom: 50px;
+    align-items: center;
+}
+
+.quoteSectionquote,
+.quoteSectionquoteCredit {
+    max-width: 800px;
+    width: 100%;                  /* neem de ruimte tot 800px, zodat de credit nog rechts kan */
 }
 
 .quoteSectionquote {
