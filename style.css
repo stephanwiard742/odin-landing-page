@@ -1,0 +1,44 @@
+body {
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+}
+
+.header,
+.heroSection,
+.footer {
+    background-color: #1F2937;
+    justify-content: space-between;
+}
+
+.header {
+    align-items: center;
+    padding: 18px 20px;
+}
+
+.header,
+.heroSection,
+.footer,
+.items {
+    display: flex;
+}
+
+#logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+
+}
+
+ul {
+    display: flex;
+    gap: 8px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
