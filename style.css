@@ -11,7 +11,7 @@ a {
     color: #E5E7EB;
 }
 
-ul{
+ul {
     display: flex;
     gap: 20px;
     padding: 0;
@@ -100,21 +100,28 @@ ul{
     max-width: 500px;
 }
 
+.titleInformationSection {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
 .informationSection {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .items {
     display: flex;
-    text-align: center
+    text-align: center;
+    gap: 40px;
 }
 
 .item {
     width: 175px;
-    margin: 25px;
 }
 
 .item img {
@@ -138,8 +145,67 @@ ul{
     font-size: 14px;
 }
 
-.footer{
-    size: 20;
+.quoteSection {
+    flex-direction: column;
+    display: flex;
+    background-color: #E5E7EB;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.quoteSectionquote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    padding-bottom: 30px;
+}
+
+.quoteSectionquoteCredit {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1F2937;
+    text-align: right;
+}
+
+.callToActionSection {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.blueBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 15px;
+    padding: 40px;
+
+}
+
+.ctaTitle {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.ctaText {
+    color: white;
+    font-size: 18px;
+}
+
+.ctaButton {
+    display: inline-block;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,6 +215,6 @@ ul{
     font-size: 14px;
 }
 
-.footer a{
- font-size: 14px;
+.footer a {
+    font-size: 14px;
 }
