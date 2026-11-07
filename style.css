@@ -1,44 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+
 body {
     font-family: Roboto, Arial, sans-serif;
     margin: 0;
-}
-
-.header,
-.heroSection,
-.footer {
-    background-color: #1F2937;
-    justify-content: space-between;
-}
-
-.header {
-    align-items: center;
-    padding: 18px 20px;
-}
-
-.header,
-.heroSection,
-.footer,
-.items {
-    display: flex;
-}
-
-#logo {
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: bold;
-
-}
-
-ul {
-    display: flex;
-    gap: 8px;
-    padding: 0;
-    margin: 0;
-    list-style: none;
 }
 
 a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.header,
+.heroSection,
+.footer {
+    background-color: #1F2937;
+}
+
+.header,
+.heroSection,
+.informationSection {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+#logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.heroSection {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.heroSectionLeft,
+.heroSectionRight {
+    flex: 1;
+}
+
+.heroSectionLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.heroSectionRight {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mainText {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+}
+
+.secondaryText {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.button {
+    background-color: #3882F6;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.mainImage,
+.mainImage img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.items {
+    display: flex;
+}
+
+.footer {
+    display: flex;
 }
